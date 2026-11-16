@@ -80,6 +80,14 @@ flowchart TD
 
 ---
 
+## 🎥 Project Demonstration Video
+
+Watch the complete hardware prototype in action (RFID scanning, gate actuation, IR detection, LCD billing, and camera tracking):
+
+▶️ **[Click here to view / download the Demo Video (MP4)](docs/Smart_Car_Rental_Demo_Video.mp4)**
+
+---
+
 ## 🔌 Hardware Pinout & Wiring Guide
 
 ### 1. Main Controller — Arduino Uno R3 #1 (Rental & Access Gate)
