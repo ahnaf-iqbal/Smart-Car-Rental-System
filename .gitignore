@@ -29,3 +29,7 @@ $RECYCLE.BIN/
 
 # Large media files (optional to ignore or track via Git LFS)
 # *.mp4
+
+# Local LinkedIn Assets
+*thumbnail*
+
