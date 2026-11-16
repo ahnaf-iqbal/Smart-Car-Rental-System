@@ -80,11 +80,10 @@ flowchart TD
 
 ---
 
-## 🎥 Project Demonstration Video
+## 🎥 Project Demonstration & Report
 
-Watch the complete hardware prototype in action (RFID scanning, gate actuation, IR detection, LCD billing, and camera tracking):
-
-▶️ **[Click here to view / download the Demo Video (MP4)](docs/Smart_Car_Rental_Demo_Video.mp4)**
+- 📹 **Demo Video:** [Watch the Hardware Prototype Demo (MP4)](Demo_Video_and_Report/Project_Demo_Video.mp4) — Demonstrates RFID card scanning, automatic servo barrier gate actuation, infrared sensor tracking, real-time LCD duration/fare billing, and camera mount pan.
+- 📄 **Project Report:** [Read the CSE461 Lab Project Report (PDF)](Demo_Video_and_Report/CSE461_Project_Report.pdf) — Complete technical approach, schematics, system architecture, and analysis.
 
 ---
 
@@ -182,9 +181,9 @@ Uses standard AI-Thinker pin configuration with on-board OV2640 camera module. C
 │   └── ESP32_CAM_Surveillance.ino         # Live Wi-Fi video streaming server
 ├── RFID_UID_Scanner_Helper/
 │   └── RFID_UID_Scanner_Helper.ino        # Helper sketch to read & format card UIDs
-├── docs/
-│   ├── Smart_Car_Rental_System_Report.pdf # Complete CSE461 Lab Project Report
-│   └── Smart_Car_Rental_Demo_Video.mp4    # Working physical prototype demonstration
+├── Demo_Video_and_Report/
+│   ├── CSE461_Project_Report.pdf          # Complete CSE461 Lab Project Report
+│   └── Project_Demo_Video.mp4             # Working physical prototype demonstration
 ├── .gitignore                             # Git ignore rules for embedded builds
 └── README.md                              # Complete Project documentation
 ```
