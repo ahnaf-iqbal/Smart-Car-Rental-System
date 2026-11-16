@@ -4,6 +4,10 @@
 [![Platform](https://img.shields.io/badge/Platform-Arduino%20Uno%20%7C%20ESP32-green.svg)](https://www.arduino.cc/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](#license)
 
+<p align="center">
+  <img src="Demo_Video_and_Report/Hardware_Prototype_Setup.jpg" alt="Smart Car Rental System Hardware Prototype" width="850">
+</p>
+
 An automated, IoT-enabled **Smart Car Rental Prototype** developed as the term project for **CSE461: Introduction to Robotics** at **BRAC University**. 
 
 The system automates the vehicle rental workflow with zero human operator dependency. It features **RFID authentication**, **automated barrier gates**, **infrared vehicle direction tracking**, **real-time billing and LCD cost calculation**, **stepper-driven camera pan surveillance**, and **GPS vehicle tracking**.
@@ -82,6 +86,7 @@ flowchart TD
 
 ## 🎥 Project Demonstration & Report
 
+- 📸 **Prototype Setup Photo:** [Hardware_Prototype_Setup.jpg](Demo_Video_and_Report/Hardware_Prototype_Setup.jpg) — Overview of the physical testbed layout, docking bays, barrier gate, stepper camera tower, RFID terminal, and circuitry.
 - 📹 **Demo Video:** [Watch the Hardware Prototype Demo (MP4)](Demo_Video_and_Report/Project_Demo_Video.mp4) — Demonstrates RFID card scanning, automatic servo barrier gate actuation, infrared sensor tracking, real-time LCD duration/fare billing, and camera mount pan.
 - 📄 **Project Report:** [Read the CSE461 Lab Project Report (PDF)](Demo_Video_and_Report/CSE461_Project_Report.pdf) — Complete technical approach, schematics, system architecture, and analysis.
 
@@ -182,6 +187,7 @@ Uses standard AI-Thinker pin configuration with on-board OV2640 camera module. C
 ├── RFID_UID_Scanner_Helper/
 │   └── RFID_UID_Scanner_Helper.ino        # Helper sketch to read & format card UIDs
 ├── Demo_Video_and_Report/
+│   ├── Hardware_Prototype_Setup.jpg      # Physical prototype testbed overview photo
 │   ├── CSE461_Project_Report.pdf          # Complete CSE461 Lab Project Report
 │   └── Project_Demo_Video.mp4             # Working physical prototype demonstration
 ├── .gitignore                             # Git ignore rules for embedded builds
