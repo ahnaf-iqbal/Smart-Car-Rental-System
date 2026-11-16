@@ -1,0 +1,31 @@
+# Compiled Arduino & ESP32 Binaries
+*.hex
+*.elf
+*.bin
+*.eep
+*.lst
+*.map
+build/
+output/
+.cache/
+
+# Arduino IDE temp files
+*.tmp
+*.bak
+*~
+
+# VS Code / PlatformIO
+.vscode/
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# OS Generated Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Large media files (optional to ignore or track via Git LFS)
+# *.mp4
